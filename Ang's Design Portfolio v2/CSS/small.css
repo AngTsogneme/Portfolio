@@ -54,7 +54,8 @@
     }
     .parallax{
       background-image: url("../Images/landing\ page\ image\ mobile.png");
-    
+      background-size:none;
+
       height:100vh;
     }
     .project-scroll-button{
