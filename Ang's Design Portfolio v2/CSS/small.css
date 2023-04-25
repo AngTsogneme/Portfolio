@@ -52,6 +52,7 @@
       background: rgba(0, 0, 0, 0.5);
     }
     .parallax{
+      background-image: url("../Images/landing\ page\ image\ mobile.png");
       background-size: none;
       background-attachment: none;
       background-position: none;
