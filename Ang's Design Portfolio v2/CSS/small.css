@@ -50,9 +50,11 @@
       line-height: 2;
       padding: 50px;
       background: rgba(0, 0, 0, 0.5);
+      margin:0;
     }
     .parallax{
-      
+      background-image: url("../Images/landing\ page\ image\ mobile.png");
+    
       height:100vh;
     }
     .project-scroll-button{
