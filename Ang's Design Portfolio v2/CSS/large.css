@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 95vh;
+  height: 90vh;
 }
 
 .h1home h1 {
@@ -18,6 +18,23 @@
 .h1home {
   max-width: 800px;
   margin-bottom: 200px;
+}
+.parallax-container{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  color:#FAF0F8;
+  width:100%;
+  height:100%;
+}
+.parallax p {
+  width:800px;
+  line-height: 2;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .project-scroll-button{
@@ -209,6 +226,7 @@ body {
   right: 0;
   margin: auto;
   z-index: 2;
+  margin-top: 100px;
 }
 .cards-container h2 {
   text-align: center;

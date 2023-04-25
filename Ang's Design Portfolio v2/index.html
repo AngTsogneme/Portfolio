@@ -49,15 +49,16 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
-    <!-- <style>
+    <style>
       .parallax {
         /* The image used */
-        background-image: url("./Images/parallax.jpeg");
-      
-        /* Set a specific height */
-        min-height: 500px; 
+        background-image: url("./Images/landing\ page\ image.png");
+        
+        
+        min-height: 700px; 
         width:calc(100% + 40px);
         margin-left: -20px;
+        
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: center;
@@ -65,7 +66,7 @@
         background-size: cover;
         
       }
-    </style> -->
+    </style>
 
 
   </head>
@@ -80,248 +81,261 @@
         })
       );
     </script>
-    <!-- <div class="parallax"> -->
+    
       
-    <div class="pic-greeting-container">
-      <div class="greeting" >
-        <div class = "animate__animated animate__zoomIn">
-          <div class="h1home">
+
+        <div class="pic-greeting-container">
+          <div class="greeting" >
+            <div class = "animate__animated animate__zoomIn">
+              <div class="h1home">
+                <h1>Hi there! I'm Ang.</h1>
+                <h3> <span class = "ui-designer">UI Designer</span> & <span class = "front-end">Front-End Developer</span> based in Toronto, Ontario.</h3>
+                
+                <!-- <p>👋 Hi there! My name is Ang. I'm a designer based in Toronto.</p>
+                <p>💻 I create visually appealing products that solve problems. Using my visual design skills and ux knowledge, I can provide users with a seamless experience.
+                      My background in web development and startup experience allow me to be proficient in every step of the process.</p>
+                <p>🎯 My goal is to create products that solve problems or inefficiencies.</p>
+                 -->
+              </div >
+            </div>          
+          </div>
+
+          <div>
+            <button class = "project-scroll-button" type="button" onClick="document.getElementById('parallax').scrollIntoView({behavior:'smooth'});"><span class="material-symbols-outlined">
+              expand_circle_down
+              </span></button>
+          </div>
+        </div>
+      <div class="parallax" id = "parallax">
+        <div class="parallax-container">
+          <div> 
+            <p>UX / UI: I'm experienced in utilizing the design process in order to create human centered products that provide an intuive experience for users and meet business requirements.
               
-            <h1><span>UI + Visual Design</span></h1>
+            <br/>
+            <br/>
+            Front-End: My skills in web development include, HTML, CSS, Javascript, and a bit of Python. I have experience using frameworks and libraries such as Bootstrap and React.  </p>
             
-            <p>👋 Hi there! My name is Ang. I'm a designer based in Toronto.</p>
-            <p>💻 I create visually appealing products that solve problems. Using my visual design skills and ux knowledge, I can provide users with a seamless experience.
-                  My background in web development and startup experience allow me to be proficient in every step of the process.</p>
-            <p>🎯 My goal is to create products that solve problems or inefficiencies.</p>
-
-          </div >
+          <br/>
         </div>
-       
       </div>
 
-      <div>
-        <button class = "project-scroll-button" type="button" onClick="document.getElementById('projects').scrollIntoView();"><span class="material-symbols-outlined">
-          expand_circle_down
-          </span></button>
 
       </div>
-
-    </div>
-
-
-  <!-- </div> -->
-    
-    <div class ="animate__animated animate__pulse">
-    
-    <div class="cards" id="projects">
-      
-      <div class="cards-container">
-        <h2> Projects </h2>
         
-        <div class="cards-c2">
-          <a class="stw-card" href="./HTML/Save-the-Whales.html">
-            <img
-              class="stw-cover"
-              src="./Images/stw/stw-cover.png"
-              alt="save the whales card pic"
-            />
-
-            <div class="stw-overlay">
-              <div class="stw-text">
-                <h2 style="margin: 0; color: #f2eae6">Save The Whales</h2>
-                <p>Jun - Jul 2021</p>
-              </div>
-            </div>
-          </a>
-
-          <a class="tailored-card" href="./HTML/Tailored.html">
-            <img
-              class="tailored-cover"
-              src="./Images/tailored/tailored-card-pic.png"
-              alt="tailored card pic"
-            />
-
-            <div class="tailored-overlay">
-              <div class="tailored-text">
-                <h2 style="margin: 0; color: #f2eae6">Tailored</h2>
-                <p>May - Jun 2021</p>
-              </div>
-            </div>
-          </a>
-        </div>
-
-
-          <a class="aquamobile-card" href="./HTML/Aquamobile-Redesign.html">
-            <img
-              class="aquamobile-cover"
-              src="./Images/Aquamobile/AquamobileCover.png"
-              alt="aquamobile redesign card pic"
-            />
-            <div class="aquamobile-overlay">
-              <div class="aquamobile-text">
-                <h2 style="margin: 0; color: #f2eae6">Aquamobile Redesign</h2>
-                <p>Oct 2021</p>
-              </div>
-            </div>
-          </a>
+        <div class ="animate__animated animate__pulse">
+        
+        <div class="cards" id="projects">
           
-        </div>
-      </div>
-    </div>
-    <div class="snapshots">
-      <h2>Gallery</h2>
-    <div class="snapshots-container">
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 13</div>
-          <img src="./Images/gallery/boarding-pass.png" style="width:100%">
-          <div class="text">Boarding Pass.</div>
-        </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 13</div>
-          <img src="./Images/gallery/community-workout-app.png" style="width:100%">
-          <div class="text">Work out with your community.</div>
-        </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 13</div>
-          <img src="./Images/gallery/cooking-app.png" style="width:100%">
-          <div class="text">Cooking app.</div>
-        </div>
-        <div class="mySlides fade">
-          <div class="numbertext">4 / 13</div>
-          <img src="./Images/gallery/crowdfunding-campaign.png" style="width:100%">
-          <div class="text">Crowdfunding campaign.</div>
-        </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext">5 / 13</div>
-          <img src="./Images/gallery/custom-bubble-tea-order.png" style="width:100%">
-          <div class="text">Custom bubble tea order.</div>
-        </div>
-  
-        <div class="mySlides fade">
-          <div class="numbertext">6 / 13</div>
-          <img src="./Images/gallery/e-commerce-cashmere.png" style="width:100%">
-          <div class="text">E-Commerce app for cashmere clothes.</div>
-        </div>
-  
-        <div class="mySlides fade">
-          <div class="numbertext">7 / 13</div>
-          <img src="./Images/gallery/forex-trading-history.png" style="width:100%">
-          <div class="text">Forex trading history.</div>
-        </div>
-  
-        <div class="mySlides fade">
-          <div class="numbertext">8 / 13</div>
-          <img src="./Images/gallery/home-monitoring-dashboard.png" style="width:100%">
-          <div class="text">Home monitoring dashboard.</div>
-        </div>
-        <div class="mySlides fade">
-          <div class="numbertext">9 / 13</div>
-          <img src="./Images/gallery/jewelry-store-landing-page.png" style="width:100%">
-          <div class="text">Jewelry store.</div>
-        </div>
-        <div class="mySlides fade">
-          <div class="numbertext">10 / 13</div>
-          <img src="./Images/gallery/music-player.png" style="width:100%">
-          <div class="text">Music player.</div>
-        </div>
-        <div class="mySlides fade">
-          <div class="numbertext">11 / 13</div>
-          <img src="./Images/gallery/restaurant-menu.png" style="width:100%">
-          <div class="text">Restaurant menu.</div>
-        </div>
-        <div class="mySlides fade">
-          <div class="numbertext">12 / 13</div>
-          <img src="./Images/gallery/travel-app.png" style="width:100%">
-          <div class="text">Travel app.</div>
-        </div>
-        <div class="mySlides fade">
-          <div class="numbertext">13 / 13</div>
-          <img src="./Images/gallery/weather-app.png" style="width:100%">
-          <div class="text">Weather app.</div>
-        </div>
-        
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <br>
-    
-      </div>
-   </div>
-    <script>
-      let slideIndex = 1;
-      showSlides(slideIndex);
-      
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
-      
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
-      
-      function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-        }
-       
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-      }
-      </script>
-      
-
-     <footer>
-        <div class = "footer-home-contact">
+          <div class="cards-container">
+            <h2> Projects </h2>
             
-            <a href="https://www.linkedin.com/in/ang-tsog/"
-            ><img
-            id="myLinkedin"
-            class="linkedin"
-            src="../Images/linkedinlogo.png"
-            /></a>
-            <a href="mailto:angarag97@gmail.com"
-                ><img id="myGmail" class="gmail" src="../Images/gmaillogo.png"
-            /></a>
-         </div>
-      </footer>
-    <script>
+            <div class="cards-c2">
+              <a class="stw-card" href="./HTML/Save-the-Whales.html">
+                <img
+                  class="stw-cover"
+                  src="./Images/stw/stw-cover.png"
+                  alt="save the whales card pic"
+                />
 
-      // Get the modal
-      var modal = document.getElementById("avybe-modal");
+                <div class="stw-overlay">
+                  <div class="stw-text">
+                    <h2 style="margin: 0; color: #f2eae6">Save The Whales</h2>
+                    <p>Jun - Jul 2021</p>
+                  </div>
+                </div>
+              </a>
 
-      // Get the button that opens the modal
-      var btn = document.getElementById("modal-trigger");
+              <a class="tailored-card" href="./HTML/Tailored.html">
+                <img
+                  class="tailored-cover"
+                  src="./Images/tailored/tailored-card-pic.png"
+                  alt="tailored card pic"
+                />
 
-      // Get the <span> element that closes the modal
-      var span = document.getElementsByClassName("close")[0];
+                <div class="tailored-overlay">
+                  <div class="tailored-text">
+                    <h2 style="margin: 0; color: #f2eae6">Tailored</h2>
+                    <p>May - Jun 2021</p>
+                  </div>
+                </div>
+              </a>
+            </div>
 
-      // When the user clicks on the button, open the modal
-      btn.onclick = function () {
-        modal.style.display = "block";
-      };
 
-      // When the user clicks on <span> (x), close the modal
-      span.onclick = function () {
-        modal.style.display = "none";
-      };
+              <a class="aquamobile-card" href="./HTML/Aquamobile-Redesign.html">
+                <img
+                  class="aquamobile-cover"
+                  src="./Images/Aquamobile/AquamobileCover.png"
+                  alt="aquamobile redesign card pic"
+                />
+                <div class="aquamobile-overlay">
+                  <div class="aquamobile-text">
+                    <h2 style="margin: 0; color: #f2eae6">Aquamobile Redesign</h2>
+                    <p>Oct 2021</p>
+                  </div>
+                </div>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="snapshots">
+          <h2>Gallery</h2>
+        <div class="snapshots-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 13</div>
+              <img src="./Images/gallery/boarding-pass.png" style="width:100%">
+              <div class="text">Boarding Pass.</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 13</div>
+              <img src="./Images/gallery/community-workout-app.png" style="width:100%">
+              <div class="text">Work out with your community.</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 13</div>
+              <img src="./Images/gallery/cooking-app.png" style="width:100%">
+              <div class="text">Cooking app.</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 13</div>
+              <img src="./Images/gallery/crowdfunding-campaign.png" style="width:100%">
+              <div class="text">Crowdfunding campaign.</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">5 / 13</div>
+              <img src="./Images/gallery/custom-bubble-tea-order.png" style="width:100%">
+              <div class="text">Custom bubble tea order.</div>
+            </div>
+      
+            <div class="mySlides fade">
+              <div class="numbertext">6 / 13</div>
+              <img src="./Images/gallery/e-commerce-cashmere.png" style="width:100%">
+              <div class="text">E-Commerce app for cashmere clothes.</div>
+            </div>
+      
+            <div class="mySlides fade">
+              <div class="numbertext">7 / 13</div>
+              <img src="./Images/gallery/forex-trading-history.png" style="width:100%">
+              <div class="text">Forex trading history.</div>
+            </div>
+      
+            <div class="mySlides fade">
+              <div class="numbertext">8 / 13</div>
+              <img src="./Images/gallery/home-monitoring-dashboard.png" style="width:100%">
+              <div class="text">Home monitoring dashboard.</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">9 / 13</div>
+              <img src="./Images/gallery/jewelry-store-landing-page.png" style="width:100%">
+              <div class="text">Jewelry store.</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">10 / 13</div>
+              <img src="./Images/gallery/music-player.png" style="width:100%">
+              <div class="text">Music player.</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">11 / 13</div>
+              <img src="./Images/gallery/restaurant-menu.png" style="width:100%">
+              <div class="text">Restaurant menu.</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">12 / 13</div>
+              <img src="./Images/gallery/travel-app.png" style="width:100%">
+              <div class="text">Travel app.</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">13 / 13</div>
+              <img src="./Images/gallery/weather-app.png" style="width:100%">
+              <div class="text">Weather app.</div>
+            </div>
+            
 
-      // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function (event) {
-        if (event.target == modal) {
-          modal.style.display = "none";
-        }
-      };
-    </script>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+        
+         
+      </div>
+        <script>
+          let slideIndex = 1;
+          showSlides(slideIndex);
+          
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+          
+          function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+          
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+          }
+          </script>
+          
+
+        <footer>
+            <div class = "footer-home-contact">
+                
+                <a href="https://www.linkedin.com/in/ang-tsog/"
+                ><img
+                id="myLinkedin"
+                class="linkedin"
+                src="../Images/linkedinlogo.png"
+                /></a>
+                <a href="mailto:angarag97@gmail.com"
+                    ><img id="myGmail" class="gmail" src="../Images/gmaillogo.png"
+                /></a>
+            </div>
+          </footer>
+        <script>
+
+          // Get the modal
+          var modal = document.getElementById("avybe-modal");
+
+          // Get the button that opens the modal
+          var btn = document.getElementById("modal-trigger");
+
+          // Get the <span> element that closes the modal
+          var span = document.getElementsByClassName("close")[0];
+
+          // When the user clicks on the button, open the modal
+          btn.onclick = function () {
+            modal.style.display = "block";
+          };
+
+          // When the user clicks on <span> (x), close the modal
+          span.onclick = function () {
+            modal.style.display = "none";
+          };
+
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function (event) {
+            if (event.target == modal) {
+              modal.style.display = "none";
+            }
+          };
+        </script>
+    </div>
+
+
   </body>
 </html>

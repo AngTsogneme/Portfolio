@@ -27,12 +27,31 @@
       align-items: center;
   
       margin-top: 120px;
+      height:70vh;
     }
    
     .h1home{
         max-width: 500px;
         margin-bottom: 100px;
     }
+    .parallax-container{
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.5);
+      color:#FAF0F8;
+      width:calc(100%+30px);
+      height:100vh;
+    }
+    .parallax p {
+      width:320px;
+      line-height: 2;
+      padding: 50px;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    
     .project-scroll-button{
         border: none;
     }

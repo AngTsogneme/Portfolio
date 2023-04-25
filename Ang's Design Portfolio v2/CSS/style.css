@@ -79,6 +79,7 @@ footer {
 #myBtn .material-symbols-outlined{
   font-size: 50px;
   transform: rotate(180deg);
+  
 }
 #myBtn .material-symbols-outlined:hover {
   color: #002952; /* Add a dark-grey background on hover */
@@ -185,8 +186,6 @@ mark{
 
 }
 
-/* The dots/bullets/indicators */
-
 
 /* Fading animation */
 .fade {
@@ -199,10 +198,18 @@ mark{
   to {opacity: 1}
 }
 
-.h1home h1{
+
+
+.front-end{
+  background: linear-gradient(90deg, #1565C0 0%, #48BF84 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.ui-designer{
   background: linear-gradient(90deg, #48BF84 0%, #1565C0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-
 }
+
