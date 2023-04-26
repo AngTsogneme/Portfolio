@@ -54,7 +54,7 @@
     }
     .parallax{
       background-image: url("../Images/landing\ page\ image\ mobile.png");
-      background-size:none;
+      background-size:100vh;
 
       height:100vh;
     }
