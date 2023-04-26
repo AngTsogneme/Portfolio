@@ -31,6 +31,7 @@
    
     .parallax{
       background-image: url("../Images/landing\ page\ image\ mobile.png");
+      background-size:contain;
 
       height: 100vh;
       margin-top: -10px;
