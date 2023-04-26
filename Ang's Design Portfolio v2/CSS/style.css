@@ -8,6 +8,7 @@ body {
 .topnav {
   background: #FAF0F8;
   font-weight: 900;
+  
 }
 
 .nav-items :hover {
@@ -40,6 +41,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 100px;
+
 }
 .footer-button {
   background-color: #00478f; 
@@ -201,13 +204,13 @@ mark{
 
 
 .front-end{
-  background: linear-gradient(90deg, #1565C0 0%, #48BF84 100%);
+  background-image: linear-gradient(-45deg, #f43b47 0%, #453a94 100%);  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 .ui-designer{
-  background: linear-gradient(90deg, #48BF84 0%, #1565C0 100%);
+  background-image: linear-gradient(45deg, #f43b47 0%, #453a94 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

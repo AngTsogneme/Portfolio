@@ -26,37 +26,85 @@
       flex-direction: column;
       align-items: center;
   
-      margin-top: 250px;
       height:70vh;
     }
    
-    .h1home{
-        max-width: 500px;
-        margin-bottom: 100px;
+    .parallax{
+      background-image: url("../Images/landing\ page\ image\ mobile.png");
+
+      height: 100vh;
+      margin-top: -10px;
     }
-    .parallax-container{
-  
+    .pic-greeting-container {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background: rgba(0, 0, 0, 0.5);
-      color:#FAF0F8;
-      width:calc(100%+30px);
       height:100vh;
     }
-    .parallax p {
+    .greeting{
+      margin-top:200px;
+    }
+    .h1home h1 {
+      
+      margin-top: 0;
+      font-weight: 100;
+    }
+    
+    .h1home {
+      max-width: 320px;
+      margin-bottom: 200px;
+      background: rgba(250, 240, 248, 0.890);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(6.2px);
+      -webkit-backdrop-filter: blur(6.2px);
+      padding:50px;
+      
+    }
+    .skills-desc{
+      
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      justify-content: center;
+      width:100%;
+      height:55vh;
+    }
+    .skills-desc p {
       width:320px;
-      line-height: 2;
-      padding: 50px;
-      background: rgba(0, 0, 0, 0.5);
+      line-height: 1.6;
       margin:0;
+      padding-top:50px;
+      padding-left:10px;
     }
-    .parallax{
-      background-image: url("../Images/landing\ page\ image\ mobile.png");
-      background-size:100vh;
-
-      height:100vh;
+    .ui-p-container{
+      display: flex;
+      flex-direction: row;
+      align-items: c;
+      height:50%;
+      align-items: flex-start;
+      
+    
+    }
+    .front-end-p-container{
+      display: flex;
+      flex-direction: row;
+      height:50%;
+      align-items: flex-start;
+    
+    }
+    .front-end-icon{
+      height:50px;
+      width:50px;
+      margin-top: 50px;
+    
+    }
+    .ui-icon{
+      height:50px;
+      width:50px;
+      margin-top: 50px;
+    
     }
     .project-scroll-button{
         border: none;
@@ -68,7 +116,7 @@
     }
     button.project-scroll-button{
         
-        background-color: #FAF0F8;
+        background-color: transparent;
     }
     footer {
         margin-right: -10px;
@@ -177,7 +225,7 @@
     CARDS
     **/
     .cards {
-      margin-top: 150px;
+      margin-top: 50px;
   
       display: flex;
   
