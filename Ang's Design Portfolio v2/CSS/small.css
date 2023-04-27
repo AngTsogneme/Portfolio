@@ -29,7 +29,7 @@
 
     .parallax{
       background-attachment: scroll;
-      
+      background-image: none;
     }
     .parallax .pic-greeting-container {
       position: absolute;
