@@ -21,21 +21,10 @@
     }
     
 
-   
-    .landing-page-image-mobile{
-      width: 200px;
-      height: 200px;
-    }
-
     .parallax{
       background-attachment: scroll !important;
     }
-    .parallax .pic-greeting-container {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
+    
     .pic-greeting-container {
       display: flex;
       flex-direction: column;
