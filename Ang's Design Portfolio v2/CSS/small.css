@@ -28,7 +28,7 @@
     }
 
     .parallax{
-      background-image: none;
+      background-attachment: scroll;
       
     }
     .parallax .pic-greeting-container {
@@ -46,6 +46,7 @@
     }
     .greeting{
       margin-top:200px;
+      width: 320px;
     }
     .h1home h1 {
       
