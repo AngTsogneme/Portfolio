@@ -39,10 +39,7 @@
       width: 100%;
       height: 100vh;
       margin-top: -10px;
-      -webkit-transform: scale(1.5);
-      transform: scale(1.5); /* you can change the value also */
-     -webkit-transform-origin: center;
-      transform-origin: center;
+      
       
     }
     .pic-greeting-container {
