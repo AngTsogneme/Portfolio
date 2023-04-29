@@ -105,6 +105,12 @@ button.project-scroll-button {
   background-color: transparent;
   margin-top: -100px;
 }
+.marquee{
+  margin-top:100px;
+
+}
+
+
 .stw-footer {
     width: 600px;
 }

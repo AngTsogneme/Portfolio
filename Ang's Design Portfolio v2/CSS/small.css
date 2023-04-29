@@ -108,6 +108,10 @@
         margin-top: -100px;
         background-color: transparent;
     }
+    .marquee{
+      margin-top:100px;
+    
+    }
     footer {
         margin-right: -10px;
         margin-left: -10px;

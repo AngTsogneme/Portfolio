@@ -216,3 +216,30 @@ mark{
   background-clip: text;
 }
 
+.marquee{
+  --gap: 10rem;
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
+  margin-bottom: 100px;
+  
+}
+.marquee-container{
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  gap: var(--gap);
+  animation: move-rt1 30s linear infinite;
+
+}
+
+@keyframes move-rt1{
+  0%{
+    transform:translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
