@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   height: 90vh;
+  margin-bottom: 200px;
   /* background: linear-gradient(180deg, #EAE9E7 0%, #FAF0F8 100%); */
 }
 .greeting{
@@ -47,6 +48,7 @@
   flex-direction: row;
   align-items: flex-start;
   height:100%;
+  margin-bottom: 200px;
 
 }
 .front-end-p-container{
@@ -54,7 +56,7 @@
   flex-direction: row;
   height:100%;
   align-items: flex-start;
-
+  margin-bottom: 200px;
 }
 .front-end-icon{
   height:100px;

@@ -232,6 +232,7 @@ mark{
   min-width: 100%;
   gap: var(--gap);
   animation: move-rt1 30s linear infinite;
+  margin-bottom: 150px;
 
 }
 
