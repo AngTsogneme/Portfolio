@@ -110,11 +110,9 @@ mark{
 
 * {box-sizing:border-box}
 .snapshots h2{
- color:#f2f2f2;
- padding-top: 50px;
+  padding-top: 50px;
 }
 .snapshots{
-  background-color: #030C26;
   width: calc(100% + 40px);
   margin-left: -20px;
   padding-bottom: 70px;
